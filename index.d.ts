@@ -7680,7 +7680,7 @@ declare namespace Stripe {
         constructor(stripe: Stripe, urlData: any);
     }
 
-    interface IListPromise<T> extends Promise<IList<T>>, AsyncIterableIterator<T> {
+    interface IListPromise<T> extends Promise<IList<T>> {
         autoPagingEach(handler: (item: T) => Promise<void>): void;
         autoPagingToArray(opts: {limit: number}): Promise<T[]>;
     }
