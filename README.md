@@ -1,6 +1,6 @@
-Type definitions for stripe 6.30, adapted to have balanceTransactions
-
-Based on commit https://github.com/DefinitelyTyped/DefinitelyTyped/commit/4215ed1fabd00a0072678e852efff722fb073dd8#diff-e2ec626a9f3039439e4463673f929d77
+Type definitions for stripe 6.31, adapted.
+Major change: remove AsyncIterableIterator<T> from IListPromise
+https://github.com/Optylon/stripe-types/commit/7be84c3fe0529e13572deac022e77f5ed22924fc
 
 See issue: https://github.com/DefinitelyTyped/DefinitelyTyped/issues/36965
 
