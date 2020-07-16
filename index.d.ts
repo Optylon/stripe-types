@@ -2385,6 +2385,12 @@ declare namespace Stripe {
              */
             delinquent: boolean;
 
+            /**
+             * Was the customer deleted?
+             * https://stripe.com/docs/api/customers/retrieve?lang=node
+             */
+            deleted?: boolean;
+
             description?: string;
 
             /**
